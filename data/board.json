@@ -1,0 +1,75 @@
+{
+    "name": "board",
+    "columns": [
+        {
+            "name": "Todo",
+            "tasks": [
+                {
+                    "id": "1",
+                    "name": "Task 1",
+                    "description": "This is the description for Task 1."
+                },
+                {
+                    "id": "2",
+                    "name": "Task 2",
+                    "description": "This is the description for Task 2."
+                },
+                {
+                    "id": "3",
+                    "name": "Task 3",
+                    "description": "This is the description for Task 3."
+                }
+            ]
+        },
+        {
+            "name": "In Progress",
+            "tasks": [
+                {
+                    "id": "4",
+                    "name": "Task 4",
+                    "description": "This is the description for Task 4."
+                },
+                {
+                    "id": "5",
+                    "name": "Task 5",
+                    "description": "This is the description for Task 5."
+                }
+            ]
+        },
+        {
+            "name": "Review",
+            "tasks": [
+                {
+                    "id": "6",
+                    "name": "Task 6",
+                    "description": "This is the description for Task 6."
+                },
+                {
+                    "id": "7",
+                    "name": "Task 7",
+                    "description": "This is the description for Task 7."
+                },
+                {
+                    "id": "8",
+                    "name": "Task 8",
+                    "description": "This is the description for Task 8."
+                }
+            ]
+        },
+        {
+            "name": "Complete",
+            "tasks": [
+                {
+                    "id": "9",
+                    "name": "Task 9",
+                    "description": "This is the description for Task 9."
+                },
+                {
+                    "id": "10",
+                    "name": "Task 10",
+                    "description": "This is the description for Task 10."
+                }
+            ]
+        }
+    ]
+}
