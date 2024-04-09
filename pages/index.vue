@@ -1,13 +1,15 @@
 <script lang="ts" setup>
 import { useBoardStore } from "~/stores/board";
 
-const boardStore = useBoardStore();
-const { board } = storeToRefs(boardStore);
+const store = useBoardStore();
+const { columns } = storeToRefs(store);
+
+onMounted(() => store.getAllColumn());
 </script>
 
 <template>
   <div class="flex items-start justify-between min-h-screen p-10 space-x-5">
-    <div v-for="(column, index) in board.columns" :key="index" class="w-full">
+    <div v-for="(column, index) in columns" :key="index" class="w-full">
       <UContainer
         class="bg-secondary p-5 rounded-md border border-neutral-500 space-y-3.5"
       >
