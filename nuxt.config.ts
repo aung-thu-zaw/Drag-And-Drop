@@ -12,4 +12,14 @@ export default defineNuxtConfig({
   colorMode: {
     preference: "light",
   },
+  app: {
+    head: {
+      script: [
+        {
+          src: "https://kit.fontawesome.com/18c274e5f3.js",
+          crossorigin: "anonymous",
+        },
+      ],
+    },
+  },
 });
